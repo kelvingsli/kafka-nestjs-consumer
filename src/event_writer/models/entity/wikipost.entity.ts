@@ -20,4 +20,3 @@ export class WikiPost {
   @Column({ nullable: true })
   source: string;
 }
-

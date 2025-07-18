@@ -4,6 +4,6 @@ import { EventWriterModule } from '../event_writer/event_writer.module';
 
 @Module({
   providers: [KafkaService, Logger],
-  imports:[EventWriterModule]
+  imports: [EventWriterModule],
 })
 export class KafkaModule {}

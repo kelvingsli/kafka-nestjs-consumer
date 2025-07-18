@@ -20,7 +20,7 @@ export class WikiPostDto {
     source: string,
   ) {
     this.id = id;
-    this.key_id = key_id
+    this.key_id = key_id;
     this.title = title;
     this.title_url = title_url;
     this.timestamp = timestamp;

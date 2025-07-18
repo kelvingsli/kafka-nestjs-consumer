@@ -7,7 +7,10 @@ import { KafkaModule } from './kafka/kafka.module';
 import { EventWriterModule } from './event_writer/event_writer.module';
 
 @Module({
-  imports: [KafkaModule, ConfigModule.forRoot({ isGlobal: true }), EventWriterModule,
+  imports: [
+    KafkaModule,
+    ConfigModule.forRoot({ isGlobal: true }),
+    EventWriterModule,
     TypeOrmModule.forRoot({
       type: 'postgres',
       host: 'localhost',

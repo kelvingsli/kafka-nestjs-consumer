@@ -1,12 +1,11 @@
 export interface IWikiEvent {
-    id: number;
+  id: number;
 
-    title: string;
+  title: string;
 
-    title_url: string;
+  title_url: string;
 
-    timestamp: Date;
+  timestamp: Date;
 
-    source: string;
-
+  source: string;
 }

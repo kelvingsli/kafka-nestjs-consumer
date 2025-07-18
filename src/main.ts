@@ -38,7 +38,7 @@ async function bootstrap() {
           ),
         }),
       ],
-    })
+    }),
   });
   app.enableShutdownHooks();
   const config = new DocumentBuilder()
